@@ -16,7 +16,7 @@ function draw(){
  if(mousePressedOver(b1)){
   b1.shapeColor = "blue";
  }
- if (this.Touch[b1]){
+ if (event.touches[0].b1){
   b1.shapeColor = "blue";
  }
   drawSprites();
